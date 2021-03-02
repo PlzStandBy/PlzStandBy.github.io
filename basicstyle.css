@@ -2,17 +2,21 @@ body {
 	font-family: Gotham SSm A,Gotham SSm B,Helvetica,Arial,sans-serif;
 }
 
-#grid { 
-  display: grid;
-  grid-template-rows: 1fr ;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 2vw;
-  }
-#grid > div {
+
+.grid-container {
   background: #786fa6;
+  display: grid;
   border: 2px solid #574b90;
   border-radius: 4px;
   font-size: 5vw;
-  padding: .5em;
   text-align: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 3px 3px;
+  grid-template-areas:
+    "One Two"
+    "fefu fefu";
 }
+.One { grid-area: One; }
+.Two { grid-area: Two; }
+.fefu { grid-area: fefu; }
