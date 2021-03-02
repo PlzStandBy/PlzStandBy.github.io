@@ -11,12 +11,20 @@ body {
   font-size: 5vw;
   text-align: center;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 500px 100px;
   gap: 3px 3px;
   grid-template-areas:
     "One Two"
     "fefu fefu";
 }
-.One { grid-area: One; }
-.Two { grid-area: Two; }
-.fefu { grid-area: fefu; }
+
+.One { 
+	grid-area: One;
+	background: white;
+}
+.Two {
+	grid-area: Two; 
+}
+.fefu { 
+	grid-area: fefu;
+}
