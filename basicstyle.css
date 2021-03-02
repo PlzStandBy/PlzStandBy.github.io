@@ -1,27 +1,18 @@
-.wrapper {
-  border: 2px solid #574b90;
-  border-radius: 4px;
-  background-color: #786fa6;
-}
-.wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
 body {
 	font-family: Gotham SSm A,Gotham SSm B,Helvetica,Arial,sans-serif;
 }
 
-/*#grid { 
+#grid { 
   display: grid;
   grid-template-rows: 1fr ;
   grid-template-columns: 1fr 1fr;
   grid-gap: 2vw;
   }
 #grid > div {
-  background: #786fa6
-  border: 2px solid #574b90
-  border-radius: 4px
+  background: #786fa6;
+  border: 2px solid #574b90;
+  border-radius: 4px;
   font-size: 5vw;
   padding: .5em;
   text-align: center;
-}*/
+}
