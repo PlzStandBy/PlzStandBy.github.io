@@ -1,7 +1,12 @@
 body {
 	font-family: Gotham SSm A,Gotham SSm B,Helvetica,Arial,sans-serif;
 }
-
+H2{
+	font-size:14pt;
+}
+P{
+	font-size:12pt;
+}
 
 .grid-container {
   display: grid;
@@ -10,10 +15,10 @@ body {
   padding: 2%;
   text-align: center;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 200px 100px;
-
+  grid-template-rows: 150px 50px 110px;
   grid-template-areas:
     "One Two"
+    "but1 but2"
     "fefu fefu";
 }
 
@@ -21,20 +26,20 @@ body {
   background-color: #4cd137;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 10px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
   cursor: pointer;
+  vertical-align:bottom;
 }
 
 .grid-element {
-
+	padding: 3%;
 }
 
-.One { 
+.One {
 grid-area: One;
 background:#e84118;
 }
@@ -45,4 +50,12 @@ background:#00a8ff;
 .fefu { 
 grid-area: fefu;
 background: #273c75;
+}
+.but1{
+grid-area: but1;
+background:#e84118;
+}
+.but2{
+grid-area: but2;	
+background:#00a8ff;
 }
