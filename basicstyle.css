@@ -22,6 +22,18 @@ P{
     "fefu fefu";
 }
 
+.img-container {
+  display: grid;
+  border-radius: 4px;
+  font-size: 5vw;
+  padding: 2%;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    ". img ."
+}
+
 .button {
   background-color: #4cd137;
   border: none;
@@ -37,6 +49,10 @@ P{
 
 .grid-element {
 	padding: 3%;
+}
+
+.img{
+	grid-area: img;
 }
 
 .One {
