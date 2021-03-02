@@ -18,6 +18,9 @@ body {
   grid-gap: 2vw;
   }
 #grid > div {
+  background-color: #786fa6
+  border: 2px solid #574b90
+  border-radius: 4px
   font-size: 5vw;
   padding: .5em;
   background: gold;
