@@ -15,7 +15,7 @@ P{
   padding: 2%;
   text-align: center;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 150px 50px 110px;
+  grid-template-rows: 150px 60px 130px;
   grid-template-areas:
     "One Two"
     "but1 but2"
@@ -59,3 +59,4 @@ background:#e84118;
 grid-area: but2;	
 background:#00a8ff;
 }
+
