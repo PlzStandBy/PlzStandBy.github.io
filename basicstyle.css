@@ -4,27 +4,23 @@ body {
 
 
 .grid-container {
-  background: #786fa6;
   display: grid;
-  border: 2px solid #574b90;
   border-radius: 4px;
   font-size: 5vw;
+  padding: 2%;
   text-align: center;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 500px 100px;
-  gap: 3px 3px;
+  grid-template-rows: 500px 200px;
+
   grid-template-areas:
     "One Two"
     "fefu fefu";
 }
 
-.One { 
-	grid-area: One;
-	background: white;
-}
-.Two {
-	grid-area: Two; 
-}
-.fefu { 
-	grid-area: fefu;
-}
+.One { grid-area: One;
+;
+background:#e84118 }
+.Two { grid-area: Two;
+background:#00a8ff }
+.fefu { grid-area: fefu;
+background: #273c75 }
