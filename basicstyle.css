@@ -1,3 +1,10 @@
 .wrapper {
+  border: 2px solid #574b90
+  border-radius: 4px
+  background-color: #786fa6
   display: grid;
+  grid-template-columns: 1fr 1fr
+}
+body {
+	font-family: Gotham SSm A,Gotham SSm B,Helvetica,Arial,sans-serif;
 }
