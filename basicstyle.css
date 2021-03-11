@@ -32,7 +32,7 @@ P{
   grid-template-rows: 1fr 1fr ;
   grid-template-areas:
     "lab1 desc1"
-    ". ."
+    "lab2 desc2"
     ". .";
 }
 
@@ -109,5 +109,12 @@ background:#2ed573;
 .desc1{
 grid-area: desc1;	
 background:#7bed9f;
+.lab1{
+grid-area: lab2;	
+background:#ffa502;
+}
+.desc1{
+grid-area: desc2;	
+background:#eccc68;
 }
 
