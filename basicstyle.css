@@ -7,6 +7,9 @@ H2{
 P{
 	font-size:14pt;
 }
+A{
+	font-size:14pt;
+}
 
 .grid-container {
   display: grid;
