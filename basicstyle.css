@@ -109,11 +109,11 @@ background:#2ed573;
 .desc1{
 grid-area: desc1;	
 background:#7bed9f;
-.lab1{
+.lab2{
 grid-area: lab2;	
 background:#ffa502;
 }
-.desc1{
+.desc2{
 grid-area: desc2;	
 background:#eccc68;
 }
